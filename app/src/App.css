@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/vetores-premium/padrao-perfeito-de-fast-food-no-estilo-doodle_650511-939.jpg?w=2000"); /* Add your background image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.home {
+  display: flex;
+}
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+}
+.recipe-popup {
+  min-width: 600px;
+}
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+  border: 1px solid black;
+  box-shadow: 10px 10px 20px black;
+  background-color: rgba(29, 28, 34, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+.add-recipe {
+  display: grid;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+nav li {
+  margin: 0 20px;
+}
+
+.recipe-card {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px black;
+  padding: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  flex-basis: calc(33.33% - 20px);
+  transition: transform 0.2s;
+}
+.recipe-card:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.recipe-card img {
+  width: 248px;
+  height: 180px;
+}
+.recipe-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+.recipe-card p {
+  margin: 0;
+  color: #666;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+button[type="submit"] {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 45%;
+}
+#Add {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 15%;
+}
+#Home {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 15%;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 50px;
+}
+.plus {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.minus {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.recipe-details {
+  color: black;
+}
+.recipe-details-popup {
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0px 0px 5px white;
+  padding: 20px;
+  margin-left: 84px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+.popup-img {
+  width: 300px;
+  height: 300px;
+}
+.close {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 100px;
+  font-size: 16px;
+  margin-top: 14px;
+}
+/* .two-column-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+/* .recipe-details {
+  flex: 1;
+} */
+/*
+.popup-img {
+  width: 100%;
+  max-height: 300px;
+} */
+/*
+@media (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .home {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 320px) {
+  .home {
+    grid-template-columns: 1fr;
+  }
+} */
