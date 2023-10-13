@@ -34,7 +34,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/add" element={<AddRecipe />} />
+          <Route
+            path="/add"
+            element={
+              <AddRecipe addRecipe={addRecipe} submitFunc={submitFunc} />
+            }
+          />
         </Routes>
       </BrowserRouter>
     </Suspense>

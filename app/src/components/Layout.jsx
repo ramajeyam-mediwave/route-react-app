@@ -9,8 +9,10 @@ const Layout = (props) => {
   }, [props.title]);
   return (
     <>
-      <Nav />
-      <div className="container">{props.children}</div>
+      <div className="home-form">
+        <Nav />
+        <>{props.children}</>
+      </div>
     </>
   );
 };

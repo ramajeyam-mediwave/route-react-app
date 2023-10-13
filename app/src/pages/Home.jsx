@@ -22,12 +22,12 @@ function Home({}) {
     }
     return [];
   }
-  function submitFunc(boolean) {
-    setShowAddRecipe(boolean);
-  }
+  // function submitFunc(boolean) {
+  //   setShowAddRecipe(boolean);
+  // }
 
   const handleImageClick = (index) => {
-    setSelectedRecipe(recipes[index]);
+    +setSelectedRecipe(recipes[index]);
     setPopupOpen(true);
   };
 
